@@ -1,0 +1,4 @@
+=== Analysis results ===
+
+[THREAT] IP: 192.168.1.50 | Wrong Attempt: 5
+[SAFE] IP: 192.168.1.20 | Wrong Attempt: 1
