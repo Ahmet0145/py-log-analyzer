@@ -17,7 +17,7 @@ with open(r"C:\Users\Ahmet\New folder\server.log", "r", encoding="utf-8") as dos
 
         if "FAIL" in clean_line:
             # Eğer satırın içinde "FAIL" kelimesi geçiyorsa...
-            # print("Number Of Wrong Attempt Detected", clean_line)
+           
             # Satırı boşluklardan bölüp ilk elemanı (yani IP adresini) alıyoruz
             separating = clean_line.split()
             ip = separating[0]
